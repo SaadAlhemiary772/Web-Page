@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar .navbar-brand .h{
+	width: 20px;
+	height: 20px;
+	margin-left: 5px
+}
+.navbar {
+	background-color: brown;
+    
+}
+.bg-dark {
+	background-color: #7b1c56!important;
+}
+body{
+ background-color: #B3297E!important; 
+	color: #a71b64;
+}
+.bg-image{
+	margin: 150px auto
+}
+.videographer{
+	height:640px;
+	width: 600px;
+	animation: photog 2s infinite ease-in-out alternate;
+}
+ .card{
+	background-color:#7b1c56 ;
+	height: 300px;
+	color: #fff;
+	border: 0px;
+} 
+.card .card-body .card-title{
+	font-size: 40px
+}
+.btn{
+	color: #fff;
+	border: 1px solid #007bff;
+}
+.card-body .card-text{
+	font-size: 25px;
+	font-family: arial;
+}
+.btn:hover{
+	background-color: #a71b64;
+} 
+
+@keyframes photog{
+	from{
+		transform: translateY(7px);
+	}
+	to
+	{
+		transform: translateY(-7px);
+	}
+}
